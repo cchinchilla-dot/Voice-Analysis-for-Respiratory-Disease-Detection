@@ -12,7 +12,7 @@ This code is part of the research presented in:
 
 ## Abstract
 
-Publication in progress.
+This paper presents a robust methodology for the early and cost-effective diagnosis of COVID-19 based on vocal features and machine learning techniques. The proposed methodology addresses all challenges inherent to the prediction of COVID-19, including those related to feature extraction and selection, the imbalance problem, and predictor training. In contrast to existing methodologies that rely solely on acoustic attributes of the voice, such as intensity or frequency, our approach represents a pioneering investigation that incorporates biomechanical aspects of vocal production. These include muscle tension, the coordination of articulatory movements, and respiration. The relationship between these characteristics and the presence of the virus is investigated rigorously using robust feature selection techniques. To this end, we have constructed an original dataset comprising patients with confirmed cases of COVID-19 infection and a control group, incorporating both acoustic and biomechanical features using Voice Clinical Software. The robustness and reproducibility of the experimental results have been enhanced through the rigorous comparison of several classifiers and feature selection algorithms, as well as the employment of resampling strategies. The application of random forests for feature selection has revealed that a limited set of biomechanical markers are significantly associated with the presence of COVID-19 infection. Moreover, a random forest classifier based on a subset of biomechanical and acoustic features demonstrates high efficacy in predicting cases of COVID-19 infection, achieving a sensitivity of S = (0.9212 ± 0.0775) while maintaining a specificity of Sp = ($0.9150 ± 0.0649). Considering these findings, the proposed methodology can be regarded as a non-invasive and cost-effective alternative for the diagnosis of COVID-19 infection. Furthermore, it can be extended to the diagnosis of other respiratory diseases, provided that the vocal cords are affected.
 
 ## Experimental Setup
 
@@ -23,6 +23,10 @@ The development and testing of this project were conducted in the following envi
 * Environment: Conda (Python virtual environment)
 * Python Version: 3.10.14
 * Dependencies: Refer to requirements.txt for detailed library versions and dependencies.
+
+## Additional Experimental Code
+
+This repository contains supplementary experimental code and analyses conducted during the research phase but not included in the final paper or supplementary materials, as they were deemed not central to the main findings. These supplementary experiments represent exploratory work and alternative approaches that, while potentially interesting for further research, did not significantly impact the core conclusions of the study. It should be noted that there may be minor discrepancies between the final published article and this codebase. These differences arise from the natural evolution of the code during the research process, including experimental iterations, code refactoring, and optimization efforts. However, these variations do not affect the fundamental methodology or conclusions presented in the paper.
 
 ## Data Availability
 
