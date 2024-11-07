@@ -8,7 +8,7 @@ The code is currently being published and will be available shortly.
 
 This code is part of the research presented in:
 
-> A. J. López Rivero, C. Chinchilla Corbacho, T. Romero Arias, M. Martín-Merino, and P. Vaz, "Application of Machine Learning Techniques for the Characterization and Early Diagnosis of Respiratory Diseases such as COVID-19," IEEE Access, accepted for publication, Oct. 2024. DOI pending.
+> A. J. L. Rivero, C. C. Corbacho, T. R. Arias, M. Martín-Merino and P. Vaz, "Application of Machine Learning Techniques for the Characterization and Early Diagnosis of Respiratory Diseases Such as COVID-19," in IEEE Access, vol. 12, pp. 160516-160528, 2024, doi: 10.1109/ACCESS.2024.3487773
 
 ## Abstract
 
@@ -45,7 +45,16 @@ This work is funded by National Funds through the FCT - Foundation for Science a
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-Publication in progress.
+@ARTICLE{10737357,
+  author={Rivero, Alfonso José López and Corbacho, Carlos Chinchilla and Arias, Tatiana Romero and Martín-Merino, Manuel and Vaz, Paulo},
+  journal={IEEE Access}, 
+  title={Application of Machine Learning Techniques for the Characterization and Early Diagnosis of Respiratory Diseases Such as COVID-19}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={160516-160528},
+  keywords={COVID-19;Biomechanics;Acoustics;Machine learning;Pulmonary diseases;Jitter;Feature extraction;Recording;Perturbation methods;Codes;Feature selection;machine learning;acoustic markers;biomechanical markers;COVID-19 diagnosis;COVID-19 prediction},
+  doi={10.1109/ACCESS.2024.3487773}}
 ```
 
 ## Acknowledgments
