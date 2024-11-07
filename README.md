@@ -57,7 +57,6 @@ If you use this code in your research, please cite our paper:
   volume={12},
   number={},
   pages={160516-160528},
-  keywords={COVID-19;Biomechanics;Acoustics;Machine learning;Pulmonary diseases;Jitter;Feature extraction;Recording;Perturbation methods;Codes;Feature selection;machine learning;acoustic markers;biomechanical markers;COVID-19 diagnosis;COVID-19 prediction},
   doi={10.1109/ACCESS.2024.3487773}}
 ```
 
